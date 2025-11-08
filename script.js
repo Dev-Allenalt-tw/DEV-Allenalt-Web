@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       data: [{ ign, discord, reason, type: "application" }]
     };
 
-    const res = await fetch("https://docs.google.com/spreadsheets/d/1gdfgfgA6O9jXA4uxLGz9xFlAvfbTjDV3h9BogSWTX1A/edit?usp=drivesdk", {
+    const res = await fetch("https://sheetdb.io/api/v1/shj47rm9k724o", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
