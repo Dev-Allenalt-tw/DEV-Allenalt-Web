@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TFF TEAM | Minecraft Server</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TFF TEAM</h1>
+    <p class="tagline">Official Minecraft Server</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#status">Status</a>
+      <a href="#apply">Apply</a>
+      <a href="#social">Social</a>
+      <a href="#login">Login</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="card">
+    <h2>Welcome to TFF TEAM</h2>
+    <p>Join one of the deadliest and most skilled Minecraft guilds. Compete, build, and dominate.</p>
+  </section>
+
+  <!-- STATUS -->
+  <section id="status" class="card">
+    <h2>Server Status</h2>
+    <p id="status-text">Checking status...</p>
+  </section>
+
+  <!-- APPLY -->
+  <section id="apply" class="card">
+    <h2>Apply for TFF TEAM</h2>
+    <p>Want to join our server team? Fill out the form below:</p>
+    <form id="apply-form">
+      <input type="text" id="ign" placeholder="Minecraft IGN" required />
+      <input type="text" id="discord" placeholder="Discord Tag (e.g., user#1234)" required />
+      <textarea id="reason" placeholder="Why do you want to join?" required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <!-- SOCIAL -->
+  <section id="social" class="card">
+    <h2>Social Media</h2>
+    <div class="social-links">
+      <a href="https://discord.gg/yourinvite" target="_blank">Discord</a>
+      <a href="https://youtube.com/@tffteam" target="_blank">YouTube</a>
+      <a href="https://twitter.com/tffteam" target="_blank">Twitter</a>
+      <a href="https://instagram.com/tffteam" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <!-- LOGIN/REGISTER -->
+  <section id="login" class="card">
+    <h2>Login / Register</h2>
+    <form id="auth-form">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <select id="mode">
+        <option value="register">Register</option>
+        <option value="login">Login</option>
+      </select>
+      <button type="submit">Continue</button>
+    </form>
+    <p id="auth-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 TFF TEAM | Made by Dev_Rohit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
